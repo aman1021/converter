@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(231, 102, 102);
+}
+
+
+#div1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.margin-alignment{
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.div3{
+    font-size: 60px;
+}
+
+.margin1{
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: rgb(14, 151, 2);
+    font-size: large;
+}
+
+.design{
+    border-radius: 10px;
+    width: 95px;
+    height: 25px;
+}
+p{
+    font-size: 25px;
+    text-decoration-color : rgb(251, 251, 255); 
+    font-weight: bolder;
+    color: antiquewhite;
+}
+#reset{
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(255, 0, 0);
+}

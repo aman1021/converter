@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<title>JavaScript app</title>
+</head>
+<body >
+	<section class=" mx-auto justify-between bg-gray-300">
+	<div class="bg-black">
+	<h1 class="font-bold text-3xl text-white text-center py-4">A Number Convertor</h1>
+    </div>
+
+	<div class="font-bold px-5 text-center bg-blue-100">
+		<p class="py-3">The conversion of Decimal numbers into Binary and other numbers becomes a little bit cunfusing for some students.  </p>
+		<h1>Here, We will be converting numbers into one and another.</h1><br>
+	</div><br>
+	<div class="bg-yellow-100 mx-auto">
+		<h2 class="px-5 font-bold">First we will be converting a Decimal Number into Binary Number, Hexadecimal Number and Octadecimal Number</h2><br>
+		<h1 class="px-5 font-bold underline text-xl">1. Decimal to Binary:-</h1>
+        <p class="px-5">A decimal number has base 10 and a binary number has base 2.</p>
+		<p class="px-5">In decimal to binary conversion, the base of the number also changes, i.e. from base 10 to base 2.</p>
+		<p class="px-5">All the decimal numbers have its equivalent binary numbers. These binary numbers are majorly used in computer applications, where it is used for programming or coding purpose.</p>
+		<p class="px-5">This is because computers understand the language of binary digits, o and 1.</p>
+		<h1 class="px-5">The most popular way to convert a decimal number into the binary is the double dabble method. In this method, the given decimal number is progressively divided by 2 and writing the remainder after each division. When all the remainder is read in reverse order, the binary number is obtained.</h1>
+	</div>
+	<div class="bg-yellow-100 mx-auto">
+		<h1 class="text-3xl py-4 px-5 text-center underline">Steps for Decimal to Binary Conversion</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 1</p>
+		<h1 class="px-5">->Divide the decimal number which is to be converted by two which is the base of the binary number.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 2</p>
+		<h1 class="px-5">->The remainder which is obtained from step 1 is the least significant bit of the new binary number.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 3</p>
+		<h1 class="px-5">->Divide the quotient which is obtained from the step 2 and the remainder obtained from this is the second least significant bit of the binary number.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 4</p>
+		<h1 class="px-5">->Repeat the process until the quotient remains zero.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 5</p>
+		<h1 class="px-5">->The last remainder obtained from the division is the most significant bit of the binary number. Hence arrange the number from most significant bit to the least significant bit (i.e., from bottom to top).
+		</h1><br>
+		<h2 class="px-5 font-bold">To convert Decimal number into Binary number.<a class="text-blue-500 underline" href="/Binary/index.html">Click Here</a></h2><br>
+	</div><br>
+
+	<div class="bg-yellow-100 px-5 "><br>
+		<h1 class="font-bold text-xl underline">2. Decimal to Hexadecimal</h1>
+		<h2>Decimal system is most familiar number system to the general public. It is base 10 which has only 10 symbols − 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9. Whereas Hexadecimal system is most familiar number system color representation in Computers or digital systems. It is base 16 which has only 16 symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 and A, B, C, D, E, F. These A, B, C, D, E, F use as single digit in place of double digits, 10, 11, 12, 13, 14, 15 respectively.</h2>
+		<h1 class="text-3xl py-4 px-5 text-center underline">Steps for Decimal to Hexadecimal Conversion</h1>
+        <p class="text-xl font-bold px-5 underline">STEP 1</p>
+		<h1 class="px-5">->Divide the decimal number by 16. Treat the division as an integer division.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 2</p>
+		<h1 class="px-5">->Write down the remainder (in hexadecimal)..</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 3</p>
+		<h1 class="px-5">->Divide the result again by 16. Treat the division as an integer division..</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 4</p>
+		<h1 class="px-5">->Repeat step 2 and 3 until result is 0..</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 5</p>
+		<h1 class="px-5">->The hex value is the digit sequence of the remainders from the last to first..</h1><br>
+		<h2 class="px-5 font-bold">To convert Decimal number into Hexadecimal number.<a class="text-blue-500 underline" href="/Binary/index.html">Click Here</a></h2><br>
+	</div><br>
+
+	<div class="bg-yellow-100 px-5 "><br>
+		<h1 class="font-bold text-xl underline">2. Decimal to Octal</h1>
+		<h2>To convert decimal to octal, we have to learn about both the number system first. A number with base 8 is the octal number and a number with base 10 is the decimal</h2>
+		<p>In decimal to binary, we divide the number by 2, in decimal to hexadecimal we divide the number by 16. In case of decimal to octal, we divide the number by 8 and write the remainders in the reverse order to get the equivalent octal number.</p>
+		<h1 class="text-3xl py-4 px-5 text-center underline">Steps for Decimal to Octal Conversion</h1>
+        <p class="text-xl font-bold px-5 underline">STEP 1</p>
+		<h1 class="px-5">->If the given decimal number is less than 8 the octal number is the same.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 2</p>
+		<h1 class="px-5">->If the decimal number is greater than 7 then divide the number by 8.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 3</p>
+		<h1 class="px-5">->Note the remainder, we get after division.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 4</p>
+		<h1 class="px-5">->Repeat step 2 and 3 with the quotient till it is less than 8.</h1>
+		<p class="text-xl font-bold px-5 underline">STEP 5</p>
+		<h1 class="px-5">->Now, write the remainders in reverse order (bottom to top).</h1><br>
+		<h2 class="px-5 font-bold">To convert Decimal number into Octal number.<a class="text-blue-500 underline" href="/Binary/index.html">Click Here</a></h2><br>
+	</div>
+
+</section>
+<footer class="bg-black text-white text-xl">
+	<div>
+		<p class="text-center py-3">2021 &copy.Aman Chandel</p>
+	</div>
+	<div>
+		<h2 class="text-center font-bold">Lets Connect:</h2>
+		<h3 class="text-center"><a class="text-blue-500  underline" href="https://www.linkedin.com/in/aman-chandel-795b7b1a9">LinkedIN</a></h3><br>
+	</div>
+</footer>
+</body>
+</html>
